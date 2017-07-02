@@ -147,12 +147,12 @@ module.exports = {
       // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
       'import/order': ['error', {
         groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
-        'newlines-between': 'never',
+        'newlines-between': 'always',
       }],
   
       // Require a newline after the last import/require in a group
       // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
-      'import/newline-after-import': 'error',
+      'import/newline-after-import': 'off',
   
       // Require modules with a single export to use a default export
       // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
