@@ -1,6 +1,6 @@
 {
   "name": "@easymetrics/eslint-config-easymetrics",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Provides EasyMetrics's .eslintrc as an extensible shared config",
   "author": "Joshua Wiens <d3viant0ne>",
   "license": "Apache-2.0",
