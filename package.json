@@ -15,10 +15,6 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "hapi-capitalize-modules": "1.1.6",
-    "hapi-for-you": "1.0.0",
-    "hapi-scope-start": "2.1.1",
-    "no-arrowception": "1.0.0"
   },
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
