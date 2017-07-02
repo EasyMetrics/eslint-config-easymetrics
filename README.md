@@ -12,12 +12,14 @@
 <h2 align="center">Install</h2>
 
 ```bash
-npm i -D @easymetrics/eslint-config-easymetrics
+npm i -D @easymetrics/eslint-config-easymetrics eslint-plugin-import
 ```
 
 <h2 align="center">Usage</h2>
 
-EasyMetrics's eslint configuration contains all of our ESLint rules, including ECMAScript 6+ and is similar to [Airbnb's ESLint base rules](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base). It requires `eslint` and `eslint-plugin-import`.
+EasyMetrics's eslint configuration contains all of our ESLint rules, including ECMAScript 6+ and is similar to [Airbnb's ESLint base rules](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base). 
+
+It has peerDependencies on `eslint` and `eslint-plugin-import`.
 
 <h2 align="center">eslint setup</h2>
 
@@ -25,6 +27,8 @@ _In your .eslintrc.js || .yml || .json add ..._
 
 ```js
 // Add to your .eslintrc
-
-"extends": "webpack"
+{
+  "extends": "@easymetrics/eslint-config-easymetrics",
+  "rules": {}
+}
 ```
