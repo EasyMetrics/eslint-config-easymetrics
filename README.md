@@ -3,7 +3,7 @@
     src="https://cdn.worldvectorlogo.com/logos/eslint.svg">
   <a href="https://github.com/easymetrics">
     <img width="200" height="200" vspace="" hspace="25"
-      src="https://worldvectorlogo.com/logos/easymetrics.svg">
+      src="https://worldvectorlogo.com/logos/easymetrics-inc.svg">
   </a>
   <h1>EasyMetrics ESLint Configuration</h1>
   <p>Provides EasyMetrics's .eslintrc as an extensible shared config.<p>
